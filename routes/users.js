@@ -96,7 +96,7 @@ router.delete('/delete-user/:id',async(req,res)=>{
     if(document.value)
     {
       res.json({
-        message:"Data Deleted Successfully!",
+        message:"Data Deleted Successfully",
       })
     }
     else
